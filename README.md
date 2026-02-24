@@ -102,71 +102,8 @@ Metrics reported:
 
 Weighted F1-score was prioritized to account for class imbalance.
 
----
+----
 
-## 💾 Model Persistence
+## Project Presentation
+- [Download / View Presentation (PPTX)](Hepatitis-C-Prediction.pptx)
 
-The final optimized model pipeline was saved using:
-
-- joblib
-- File: liver_disease_logreg_5class.pkl
-
-This allows direct loading for inference or deployment.
-
----
-
-## 🗂️ Project Structure
-
-Hepatitis-C-Prediction/
-- Data_pipeline.ipynb
-- liver_disease_logreg_5class.pkl
-- README.md
-- .gitignore
-
----
-
-## 🛠️ Technologies Used
-
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
-- Imbalanced-learn (SMOTE)
-- Joblib
-
----
-
-## 🎯 Business / Clinical Relevance
-
-- Enables early detection of liver disease progression.
-- Supports classification across multiple severity stages.
-- Provides interpretable coefficients through Logistic Regression.
-- Addresses real-world class imbalance challenges.
-
----
-
-## 🔮 Future Enhancements
-
-- Compare with tree-based models (Random Forest, XGBoost)
-- Use macro F1-score for stricter imbalance evaluation
-- Add SHAP-based feature importance
-- Deploy as REST API or Streamlit web application
-- Introduce probability-based risk scoring system
-
----
-
-## 🚀 How to Run
-
-1. Clone the repository
-2. Install dependencies
-3. Run Data_pipeline.ipynb
-4. Trained model will be saved as liver_disease_logreg_5class.pkl
-
----
-
-## 📬 Author
-
-Prabhu Bhor  
-Machine Learning | Clinical AI | Data Science
